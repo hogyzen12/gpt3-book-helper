@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
+import twitterLogo from '../assets/twitter_logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -40,16 +41,16 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Welcome to BookQuest</h1>
+            <h1>Welcome to AnimeQuest</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Discover your next great read with our personalised book recommender.</h2>
+            <h2>Discover your next Anime with our personalised anime recommender.</h2>
           </div>
           <div className="header-subtitle">
-            <h3>Tell BookQuest a book you enjoyed, and would want to read something similar</h3>
+            <h3>Tell AnimeQuest an anime you enjoyed, and would want to watch something similar</h3>
           </div>
           <div className="header-subtitle">
-            <h3>BookQuest will give you 3 reccomendations, with a brief summary, their length and a rating.</h3>
+            <h3>AnimeQuest will give you 3 reccomendations, with a brief summary and info on each.</h3>
           </div>
         </div>
         {/* Add this code here*/}
@@ -88,13 +89,13 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://twitter.com/bill_papas_12"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <Image src={twitterLogo} alt="twitter logo" />
+            <p>@bill_papas_12</p>
           </div>
         </a>
       </div>
