@@ -7,7 +7,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 const basePromptPrefix =
 `
-The user will provide you with one or more anime series they loved, in the form of the User Input. Reccomend to the user 3 anime they should watch based on their inputted anime. For each anime reccomendation made to the user make sure to summarise the reccomendation with 4 sentences. Add an extra sentence that mentions some of the negatives of the anime. Give each reccomendation a rating out of 5. Append if the anime is dubbed or not, and the number of seasons and episodes.
+The user will provide you with one or more anime series they loved, in the form of the User Input. Reccomend to the user 3 anime they should watch based on their inputted anime. For each anime reccomendation made to the user make sure to summarise the reccomendation with 4 sentences. Add an extra sentence that mentions some of the negatives of the anime. Give each reccomendation a rating out of 5. Append if the anime series is dubbed or not, and the number of seasons and episodes.
 
 User Input:
 `
